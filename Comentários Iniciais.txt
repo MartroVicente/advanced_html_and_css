@@ -1,0 +1,28 @@
+---> Linha do texto: CSS
+
+1. Normal Flow:
+  Block
+  Inline
+
+2. Table / <table>:
+
+  <tr> - Table Row / Linha
+  <th> Table Head / Define um cabeçalho de coluna [Deve estar dentro de uma <tr>]
+  <td> - Table Data / Célula de Dados - Conteúdo [Deve estar dentro de uma <tr>]
+
+3. TableLess:
+
+Quebra do Fluxo / 'Float' em style="":
+  Float: Left -> Flutua a Esquerda
+  Float: Right -> Flutua a Direita
+  Clear: Both -> Força o posicionamento abaixo dos elementos flutuantes 
+
+4. FlexBox: Controla apenas um eixo
+
+  Itens em Container (Ex.: class="container")
+  Alinhamento > Elementos Filhos (Internos)
+  Unidirecional > Horizontal ou Vertical
+
+5. Grid: Grade Bidimensional: Controla dois eixos simultaneamente
+  Opera nos eixos de bloco (colunas) e de linha (linhas);
+
