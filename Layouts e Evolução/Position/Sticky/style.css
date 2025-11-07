@@ -1,0 +1,29 @@
+section{
+  border: 1px solid;
+  /* overflow: scroll; */
+  /* height: 100px; */
+}
+
+div{ 
+  background: black;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+.sticky {
+  position: sticky;
+  background: red;
+  top: 30px;
+  z-index: -1;
+}
+
+/* 
+PROPRIEDADE: Sticky
+  1. É aplicada, somente, ao elemento PAI que possua mecanismo de scroll (Rolagem)
+  2. Posicionamento é 'Fixo' e 'Relativo' simultaneamente
+  3. Aplicável somente com propriedades 'Top' e 'Bottom'
+  4. Propriedade 'INSET' ' aplica o posicionamento em todas as direções (Top, Right, Bottom e Left) ao mesmo tempo.
+    4.1 Se definidas, (10px 15px 20px ...) os parâmetros serão rendereizados em sentido horário.
+    4.2 Relativo a orientação do texto (Esquerda para Direita).
+*/
