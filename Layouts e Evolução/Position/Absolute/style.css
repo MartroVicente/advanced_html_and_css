@@ -22,13 +22,10 @@ div {
   z-index: -1;
   
   /* 
-  
-  1. Não segue a regra do Normal Flow (Ordem de Renderização na tela) / Quebra o fluxo;
-  2. Possui o Stacking Content (Empilhamento)
-  3. Fica em um determinado local na tela em relação a:
-    - Containing block próximo ou;
-    - Inital (Área de Renderização).
-  
+  1. Sai do fluxo normal de renderização (não afeta o layout dos outros elementos);
+  2. Cria um novo stacking context se tiver z-index diferente de 'auto';
+  3. É posicionado em relação ao ancestral posicionado (não-static) mais próximo, 
+    ou ao viewport, se nenhum ancestral for posicionado.
   */
 
 }
