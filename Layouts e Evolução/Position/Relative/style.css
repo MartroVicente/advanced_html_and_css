@@ -1,0 +1,23 @@
+div {
+  background-color: black;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 5px;
+}
+
+.relative {
+  background-color: red;
+  position: relative; /* Valor padrão: Static */
+
+  bottom: 0px;
+  right: 0px;
+  z-index: auto; /* Valor padrão */
+
+  /* 
+  Offset = Relativo ao próprio elemento
+    1. Alterações são percebidas a partir de sua posição inicial / original;
+  Normal Flow = Segue a ordem definida em código para renderização dos elementos em tela
+  Stacking Context = Usa o empilhamento para dar percepção de profundidade (z-index);
+  */
+
+}
